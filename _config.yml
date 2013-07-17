@@ -3,8 +3,3 @@ markdown: redcarpet
 pygments: true
 baseurl: /3coasts3
 #baseurl: http://b.illbrown.com/freelance/3coasts2/
-
-
-ftp_host: billybrown00.webfactional.com
-ftp_dir: /home/billybrown00/webapps/freelance/3coasts2/
-ftp_passive: false
