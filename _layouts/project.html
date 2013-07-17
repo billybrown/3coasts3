@@ -13,6 +13,6 @@ bodyclass: work
 
 <ul class="no-list work-images">
 	{% for item in page.images %}
-	<li><img src="{{item}}" alt="{{page.title}}"/></li>
+	<li><img src="{{ site.baseurl }}{{item}}" alt="{{page.title}}"/></li>
 	{% endfor %}
 </ul>
