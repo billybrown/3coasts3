@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>3Coasts | {{ page.title }}</title>
+        <meta name="description" content="3Coasts is a web development and graphic design company in the heart of New Orleans">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="shortcut icon" href="{{ site.baseurl}}/favicon.ico">
+        <link href='http://fonts.googleapis.com/css?family=ABeeZee:400,400italic|Karla:400,700,400italic,700italic|Strait|Merriweather+Sans:400,700,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ site.baseurl}}/css/screen.css">
+        <script src="{{ site.baseurl}}/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="{{ site.baseurl}}/js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="{{ site.baseurl}}/js/main.js"></script>
+
+    </head>
+    <body {% if page.bodyclass %}class="{{page.bodyclass}}"{% endif %}>
+        <div id="mega-wrapper" class="mega-wrapper">
+        {% include header.html %}
+
+            <section class="site-main" role="main">
+
+                    {{ content }}
+
+            </section>
+
+        {% include footer.html %}
+        {% include livechat.html %}
+        
+        </div><!-- mega-wrapper -->
+        <script src="{{ site.baseurl}}/js/jquery.fittext.js"></script>
+        <script>
+          jQuery("#responsive_headline").fitText(.9);
+        </script>
+
+    </body>
+</html>

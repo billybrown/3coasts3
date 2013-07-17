@@ -1,0 +1,39 @@
+.navicon
+  width: 1.5em
+  height: 1.5em
+  position: absolute
+  top: 20px
+  right: 20px
+  z-index: 10
+  cursor: pointer
+  background: black
+  padding: 1em 1em .7em 1em
+
+  span
+    display: block
+    height: .2em
+    margin-bottom: .3em
+    width: 100%
+    background: $primary
+
+  &:hover 
+    background: $primary
+
+    span
+      background: white
+
+  +break-medium
+    display: none
+
+.mega-wrapper
+  right: 0
+  position: relative
+  top: 0
+  height: 100%
+  width: 100%
+  overflow: hidden
+  +transition(right .2s ease-in-out)
+
+  &.slides
+    right: 150px
+    overflow: visible

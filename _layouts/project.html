@@ -1,0 +1,18 @@
+---
+layout: page
+bodyclass: work
+---
+
+<div class="work-text">
+	<h2>{{ page.title }}</h2>
+
+	<div class="post">
+		{{ content }}
+	</div>
+</div><!-- work-text -->
+
+<ul class="no-list work-images">
+	{% for item in page.images %}
+	<li><img src="{{item}}" alt="{{page.title}}"/></li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,33 @@
+fieldset
+  background: #eee
+  padding: $gutter/2
+  margin-bottom: $gutter/2
+  +box-sizing(border-box)
+
+  &.form-actions
+    background: none
+    padding: 0
+    margin: 0
+
+input, textarea
+  padding: $gutter/2
+  border: 2px solid #ddd
+  +border-radius($radius)
+  color: #888
+  +box-sizing(border-box)
+  
+label
+  display: block
+  padding-bottom: $gutter/8
+
+input, textarea, select
+  width: 300px
+
+input[type="submit"]
+  background: $primary
+  border: none
+  color: white
+  width: 200px
+
+  &:hover
+    background: $secondary

@@ -1,0 +1,22 @@
+@import global/links
+@import global/typography
+@import global/code
+@import global/selection
+@import global/helper
+@import global/forms
+
+html
+  color: $text-color
+  font-family: $font-read
+
+body
+  background: $background-color
+
+.site-main
+  padding-top: 90px
+
+  .home &
+    padding-top: 0
+
+  +break-medium
+    padding-top: 0

@@ -1,0 +1,140 @@
+.features
+  
+  li
+  
+    &.development
+      background: white
+      color: $text-color
+      overflow: hidden
+
+    &.strategy
+      background: url("../img/background_3.jpg") no-repeat center center fixed
+      +background-size(cover)
+
+    &.design
+      background: url("../img/background_4.jpg") no-repeat center center fixed
+      +background-size(cover)
+
+  h2
+    padding-bottom: $gutter/8
+
+.development-map
+  position: absolute
+  width: 100%
+  height: 200px
+  bottom: 0
+  background: url("../img/background_white.jpg") no-repeat center top
+  +background-size(cover)
+
+  +break-medium
+    width: 56%
+    height: 80%
+    left: 0
+    bottom: auto
+    top: -50px
+    background: url("../img/background_white.jpg") no-repeat right
+    +background-size(cover)
+
+.development
+  padding-bottom: 150px
+
+  +break-medium
+    padding-bottom: 0
+
+  .inside
+    position: relative
+    z-index: 20
+
+    +break-medium
+      width: 48%
+      text-align: left
+      padding: 0 $gutter-per 0 0
+      +box-sizing(border-box)
+      margin: $gutter-per 0 0 52%
+
+  .cover
+    +break-medium
+      background: $tertiary
+      +opacity(.5)
+      height: 100%
+      width: 180px
+      position: absolute
+      left: 0
+      top: 0
+      z-index: 30
+
+.languages
+  margin-top: $gutter/2
+
+  li
+    background: $primary
+    +border-radius($radius)
+    display: inline-block
+    padding: $gutter/8 $gutter/4
+    margin-bottom: $gutter/8
+
+    &.no-button
+      background: white
+
+.strategy
+
+  .icons
+    width: 100px
+    margin: $gutter auto 0
+
+    img
+      width: 100%
+
+  +break-medium
+
+    .text
+      width: 48%
+      +box-sizing(border-box)
+      float: left   
+
+    .icons
+      float: right
+      width: 52%
+      text-align: center
+
+      img
+        width: 200px
+
+.design
+
+  .text
+    +break-medium
+      width: 50%
+
+.projects-list
+  margin-top: $gutter
+
+  a
+    display: block
+    background: black
+    text-align: center
+    padding: $gutter/4
+    margin: 0 0 $gutter/8 0
+
+    &:hover
+      text-decoration: none
+      background: $secondary
+      color: white
+
+  +break-medium
+
+    article
+      width: 50%
+      float: left
+
+      &:nth-child(even)
+  
+        a
+          margin-right: 0
+          margin-left: $gutter/8
+    a
+      margin: 0 $gutter/8 $gutter/8 0
+
+
+
+

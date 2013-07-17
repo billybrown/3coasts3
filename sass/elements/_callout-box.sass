@@ -1,0 +1,51 @@
+.callout-box
+  background: url("../img/background_1.jpg") no-repeat center top fixed
+  +background-size(cover)
+  text-align: center
+  +text-shadow(0 0 10px rgba(0,0,0,.5))
+  padding-top: 90px
+
+  +break-medium
+    padding-top: 0
+
+  h2
+    padding-bottom: $gutter/4
+
+  p
+    font-size: 1.2em
+    margin: 0
+
+  +break-medium
+
+    h2
+      padding-bottom: $gutter/8
+
+.taglines
+  max-width: 450px
+  margin: 0 auto 0
+
+  li
+    margin-bottom: $gutter
+
+  img
+    margin-bottom: $gutter/4
+    height: 80px
+    width: 80px
+
+  +break-medium
+    max-width: 100%
+    +clearfix
+
+    li
+      float: left
+      width: 32.3333%
+      +box-sizing(border-box)
+
+      &.louisiana
+        margin-right: 1%
+
+      &.computer
+        margin: 0 .5%
+
+      &.speed
+        margin-left: 1%

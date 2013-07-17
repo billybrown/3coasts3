@@ -1,0 +1,7 @@
+{% for project in site.categories.project | limit:4 %}
+
+<article class="project">
+  <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+</article>
+
+{% endfor %}

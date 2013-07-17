@@ -1,0 +1,37 @@
+--- 
+layout: project
+title: iCoderMD
+categories:
+- project
+
+images:
+- /img/icodermd/web1.png
+- /img/icodermd/web2.png
+- /img/icodermd/web3.png
+- /img/icodermd/web4.png
+- /img/icodermd/web5.png
+- /img/icodermd/work1.png
+- /img/icodermd/work2.png
+- /img/icodermd/work3.png
+
+summary: A web application that allows health care providers to utilize a more efficient method of capturing charges while making rounds at the hospital.
+
+---
+
+iCoderMD is a web application that allows health care providers to utilize a more efficient method of capturing charges while making rounds at the hospital. A comprehensive procedure and diagnosis code database accessed via a quick search function allows providers to find what they are looking for quickly and easily. As a result, users can take their focus off of submitting charges and concentrate on what they do best: practicing medicine!
+
+Although the app was well on its way to completion before an upcoming tradeshow, DTS needed a website to promote the app and enlist users. We worked closely with DTS to simplify the steps the user had to take to do so--essentially, we refined the way the app fetched user account, credit card, and recurring billing information from the client's databases. Fortunately, DTS had already chosen to implement Chargify, an excellent service that was able to handle the storage of customer information, products, credit cards, and recurring billing, all of which can be a very tricky.
+
+On top of this backend work, the project also included many design components:
+
+**Trade Show Pop-Up**: we created artwork for Data Trade Solutions' skyline popup trade show booth to promote iCoderMD. Their booth was 6' tall and 3' wide, so we had to recreate screenshots from their website as infinitely-scaling vectors so they would display at a large size--ironic, since most of our time these days is spent making things fit on small screens!
+
+**Postcards**: we created artwork for promotional post cards for distribution during the trade show encouraging new customers. The postcards included features andpricing as well as a QR code that brought interested visitors directly to a responsive site where they could sign up on the spot with their smartphones.
+
+**Sell Sheets**: Not every trade show visitor has the power to make company decisions and give credit card information to complete a sign-u, so we catered to this contingent by creating a sell sheet individuals could bring back to the decision-makers and check-signers in their companies.
+
+This was a great project--heavy on the back-end, and even heavier on the front-end, which had us flexing muscles we employ regularly, but in unusual ways!
+
+##Links##
+
+[iCoderMD](http://www.icodermd.com/)
