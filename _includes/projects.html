@@ -1,10 +1,10 @@
 {% for project in site.categories.project %}
 
 <article class="project">
-  <div class="project-image"><a href="{{ project.url }}"><img src="{{project.images | first}}" alt="{{project.title}}"/></a></div>
-  <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+  <div class="project-image"><a href="{{ site.baseurl }}{{ project.url }}"><img src="{{ site.baseurl }}{{project.images | first}}" alt="{{project.title}}"/></a></div>
+  <h2><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h2>
   <p class="summary">{{ project.summary }}</p>
-  <p class="link"><a href="{{ project.url }}">Read more</a></p>
+  <p class="link"><a href="{{ site.baseurl }}{{ project.url }}">Read more</a></p>
 </article>
 
 {% endfor %}
