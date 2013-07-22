@@ -51,16 +51,6 @@ function slider() {
     }); 
 }
 
-//grow and shrink nav
-function navSlide() {
-	var ww = $(window).width(); 
-	if (ww >= breakmiddle) {
-		$(".site-header").hover(function(){
-			$(this).toggleClass("open-wide");
-			$(".home-shadow").toggleClass("open-wide");
-		});
-	}
-}
 
 
 $(document).ready(function() {
@@ -68,8 +58,15 @@ $(document).ready(function() {
 	sectionSize();
 	navicon();
 	slider();
-	navSlide();
 
+	//grow and shrink nav
+	$(".site-header").hover(function(){
+		var ww = $(window).width(); 
+		if (ww >= breakmiddle) {
+			$(this).toggleClass('open-wide');
+			$('.home-shadow').toggleClass('open-wide');
+		}
+	});
 });
 
 

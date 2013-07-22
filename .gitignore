@@ -45,3 +45,7 @@ Thumbs.db
 ######################
 _site
 _site/
+_site*
+_site/*
+*_site
+*_site/
