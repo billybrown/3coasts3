@@ -1,3 +1,4 @@
+// break point used in a bunch of functions
 var breakmiddle = 900;
 
 // make all sections as big as the window
@@ -24,16 +25,15 @@ function equalHeight(item){
 		$(item).css('height', currentTallest); 
 }
 
+// show and hide the mobile nav
 function navicon(){
-	// show and hide the mobile nav
 	$('#site-navicon').click(function(){
 		$('#mega-wrapper').toggleClass("slides");
 	});
 }
 
-
+// main page slide down when clicking the arrows
 function slider() {
-
     $('#arrow-callout').click(function(){
         $('html,body').animate({
             scrollTop: $('.development').offset().top
@@ -49,10 +49,18 @@ function slider() {
             scrollTop: $('.design').offset().top
         }, 'slow');
     }); 
-
 }
 
-
+//grow and shrink nav
+function navSlide() {
+	var ww = $(window).width(); 
+	if (ww >= breakmiddle) {
+		$(".site-header").hover(function(){
+			$(this).toggleClass("open-wide");
+			$(".home-shadow").toggleClass("open-wide");
+		});
+	}
+}
 
 
 $(document).ready(function() {
@@ -60,6 +68,7 @@ $(document).ready(function() {
 	sectionSize();
 	navicon();
 	slider();
+	navSlide();
 
 });
 

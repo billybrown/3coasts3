@@ -7,30 +7,44 @@
 
   +break-medium
     padding-top: 0
+    font-size: .85em
+
+  .inside
+    position: relative
+    height: 100%
 
   h2
     padding-bottom: $gutter/4
+    position: relative
 
   p
-    font-size: 1.2em
     margin: 0
 
-  +break-medium
+.home-shadow
+  +background-image(linear-gradient(left, rgba(0,0,0,.5), rgba(0,0,0,0)))
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  width: 75%
+  +transition(margin-left .2s ease-in-out)
 
-    h2
-      padding-bottom: $gutter/8
+  &.open-wide
+    margin-left: 114px
+
 
 .taglines
   max-width: 450px
   margin: 0 auto 0
+  position: relative
 
   li
     margin-bottom: $gutter
 
   img
-    margin-bottom: $gutter/4
-    height: 80px
-    width: 80px
+    margin-bottom: $gutter
+    height: 130px
+    width: 130px
 
   +break-medium
     max-width: 100%
@@ -40,6 +54,7 @@
       float: left
       width: 32.3333%
       +box-sizing(border-box)
+      padding: 0 $gutter
 
       &.louisiana
         margin-right: 1%

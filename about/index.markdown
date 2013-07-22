@@ -7,9 +7,11 @@ categories: about
 
 #{{ page.title}}#
 
-Beyond focusing on making websites and web applications that look great and work well, we’re committed to staying on the cutting edge of the web, which today is no small errand: the web, and how we use it, is constantly, even exponentially, expanding. We surf the crest of this wave and do it in style.
+3Coasts is a design and development company located in the heart of New Orleans. Our focus is simple: We love to build beautiful, state-of-the-art web applications. Our team came together in July 2011 from diverse backgrounds, combining over twenty years of experience with open-source web technologies. 
 
-At the end of the day, we’re some of the most avid technology users there are. We consistently bring our own experiences— both the joys and frustrations of living and working in a profoundly wired world—back to the work we do every day. The nature of the web dictates that our work is never finished, but we prefer it that way. It’s the environment we thrive in. When you partner with us, the web will be where your organization thrives, too.
+Like most geeks, we’re crazy about effectiveness and efficiency, and we constantly refine our processes to save time, energy, and money. Beyond focusing on making websites that look great and work well, we’re ferociously committed to staying on the cutting edge of the web. Today, that’s no small errand: browsers, social media, SEO, and the devices people use to surf the web are constantly, even exponentially, expanding.
+
+We try to surf the crest of this wave and do it in style. At the end of the day, we ourselves are some of the most ferocious technology users there are. We consistently bring our own experiences— both the joys and frustrations of living and working in a profoundly wired world— back to the work we do every day. The nature of the web dictates that our work is never finished, but we prefer it that way. It’s the environment we thrive in. When you work with us, the web will be where your organization thrives, too.
 
 </br>
 
@@ -36,3 +38,4 @@ Alec Quig is our project manager. He wears many hats, but most importantly, he c
 *Senior Developer*
 
 Dan Horne has been working with us in some capacity from the start, and in July he decided to team up with us full time from his home in Asheville. He was previously COO of TAIS, an ISP that serviced the downtown Asheville area. He has both broad and deep experience in all kinds of internet technologies, and after providing custom development for a variety of clients, he decided to leave his previous job to focus on web development. He is our Wordpress guru and has even contributed some plugins on that front.
+

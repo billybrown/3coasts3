@@ -1,5 +1,4 @@
 .site-header
-  padding: $gutter/1.5
   background: url("../img/background_nav.jpg") bottom
   position: absolute
   z-index: 100
@@ -10,24 +9,53 @@
 
   .home &
     background: rgba(0,0,0,.6)
+    +box-shadow(0 0 150px rgba(0,0,0,.8) inset)
 
   +break-medium
     +clearfix
     position: fixed
     left: 0
     top: 0
-    width: 180px
-    padding: 25px
+    width: 96px
     height: 100%
+    +transition(width .2s ease-in-out)
+
+    &.open-wide
+      width: 210px
 
 .logo
   max-width: 200px
   float: left
+  padding: $gutter/1.5
+  height: 50px
+  position: relative
 
   +break-medium
     max-width: 100%
     float: none
     margin-bottom: $gutter/2
+
+  img
+    position: absolute
+
+.logo-name
+  top: 24px
+  left: 70px
+  height: 36px
+  width: 120px
+  max-width: none
+
+  +break-medium
+    +opacity(0)
+    +transition(opacity .2s ease-in-out)
+
+    .open-wide &
+      +opacity(1)
+
+.logo-image
+  left: 22px
+  height: 36px
+  top: 20px
 
 .site-nav
   position: absolute
@@ -41,13 +69,45 @@
     right: 0
 
   a
-    @extend .font-read
+    position: relative
+    @extend .font-title
+    font-size: 1em
     display: block
-    border-top: 1px solid $tertiary
-    padding: $gutter/2 0 $gutter/2 $gutter/4
+    border-bottom: 1px solid black
+    border-top: 1px solid rgba($secondary, .1)
     +transition(background .1s ease-in-out)
+    color: black
+    height: $gutter*1.5
 
+    +break-medium
+      color: white
+      
     &:hover
       text-decoration: none
       background: rgba($quadrary, 0.25)
-      color: white
+      color: $secondary
+
+  img
+    max-width: 28px
+    position: absolute
+    left: $gutter
+    top: $gutter/4
+
+  span
+    position: absolute
+    left: $gutter*2.25
+    top: $gutter/2.25
+    width: 100px
+
+    +break-medium
+      +opacity(0)
+      +transition(opacity .2s ease-in-out)
+  
+      .open-wide &
+        +opacity(1)
+
+  li:last-child a
+    border-bottom: none
+
+  li:first-child a
+    border-top: none

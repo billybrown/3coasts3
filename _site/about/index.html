@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="/css/screen.css">
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.5.4.min.js"></script>
         <script src="/js/main.js"></script>
 
     </head>
@@ -20,7 +21,10 @@
         <div id="mega-wrapper" class="mega-wrapper">
         <header class="site-header" role="banner">
 	<div class="logo">
-		<a href="/"><img src="/img/3coasts_transparent_white.png" alt="3coasts"/></a>
+		<a href="/">
+			<img class="logo-image" src="/img/3coasts_logo.png" alt="3coasts"/>
+			<img class="logo-name" src="/img/3coasts_name.png" alt="3coasts"/>
+		</a>
 	</div>
 	<div id="site-navicon" class="navicon">
 	    <span></span>
@@ -29,10 +33,10 @@
 	</div>
 	<nav role="navigation" id="site-menu" class="site-nav">
 		<ul class="no-list">
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/jobs">Jobs</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about"><img src="/img/icon_team.svg" alt="about us icon"/><span>About Us</span></a></li>
+            <li><a href="/projects"><img src="/img/icon_laptop.svg" alt="projects icon"/><span>Projects</span></a></li>
+            <li><a href="/jobs"><img src="/img/icon_code.svg" alt="jobs icon"/><span>Jobs</span></a></li>
+            <li><a href="/contact"><img src="/img/icon_star.svg" alt="contact icon"/><span>Contact</span></a></li>
 		</ul>
 	</nav>
 </header>
@@ -42,9 +46,11 @@
                     	<div class="page">
         <h1>About 3Coasts</h1>
 
-<p>Beyond focusing on making websites and web applications that look great and work well, we’re committed to staying on the cutting edge of the web, which today is no small errand: the web, and how we use it, is constantly, even exponentially, expanding. We surf the crest of this wave and do it in style.</p>
+<p>3Coasts is a design and development company located in the heart of New Orleans. Our focus is simple: We love to build beautiful, state-of-the-art web applications. Our team came together in July 2011 from diverse backgrounds, combining over twenty years of experience with open-source web technologies. </p>
 
-<p>At the end of the day, we’re some of the most avid technology users there are. We consistently bring our own experiences— both the joys and frustrations of living and working in a profoundly wired world—back to the work we do every day. The nature of the web dictates that our work is never finished, but we prefer it that way. It’s the environment we thrive in. When you partner with us, the web will be where your organization thrives, too.</p>
+<p>Like most geeks, we’re crazy about effectiveness and efficiency, and we constantly refine our processes to save time, energy, and money. Beyond focusing on making websites that look great and work well, we’re ferociously committed to staying on the cutting edge of the web. Today, that’s no small errand: browsers, social media, SEO, and the devices people use to surf the web are constantly, even exponentially, expanding.</p>
+
+<p>We try to surf the crest of this wave and do it in style. At the end of the day, we ourselves are some of the most ferocious technology users there are. We consistently bring our own experiences— both the joys and frustrations of living and working in a profoundly wired world— back to the work we do every day. The nature of the web dictates that our work is never finished, but we prefer it that way. It’s the environment we thrive in. When you work with us, the web will be where your organization thrives, too.</p>
 
 <p></br></p>
 
@@ -118,7 +124,7 @@ New Orleans, LA 70130</br></p>
         </div><!-- mega-wrapper -->
         <script src="/js/jquery.fittext.js"></script>
         <script>
-          jQuery("#responsive_headline").fitText(.9);
+          jQuery("#responsive_headline").fitText(1.4);
         </script>
 
     </body>
