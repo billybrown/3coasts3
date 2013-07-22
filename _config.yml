@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-baseurl: ''
-#baseurl: /3coasts3
+#baseurl: ''
+baseurl: /3coasts3
 #baseurl: http://b.illbrown.com/freelance/3coasts2/
