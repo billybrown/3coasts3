@@ -1,5 +1,5 @@
 .callout-box
-  background: url("../img/background_1.jpg") no-repeat center top fixed
+  background: url("../img/background_1.jpg")
   +background-size(cover)
   text-align: center
   +text-shadow(0 0 10px rgba(0,0,0,.5))
@@ -8,6 +8,8 @@
   +break-medium
     padding-top: 0
     font-size: .85em
+    background: url("../img/background_1.jpg") no-repeat center top fixed
+    +background-size(cover)
 
   .inside
     position: relative
@@ -45,6 +47,9 @@
     margin-bottom: $gutter
     height: 130px
     width: 130px
+
+    .no-svg &
+      display: none
 
   +break-medium
     max-width: 100%

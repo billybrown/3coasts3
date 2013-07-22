@@ -8,12 +8,20 @@
       overflow: hidden
 
     &.strategy
-      background: url("../img/background_3.jpg") no-repeat center center fixed
+      background: url("../img/background_3.jpg")
       +background-size(cover)
 
+      +break-medium
+        background: url("../img/background_3.jpg") no-repeat center center fixed
+        +background-size(cover)
+
     &.design
-      background: url("../img/background_4.jpg") no-repeat center center fixed
+      background: url("../img/background_4.jpg")
       +background-size(cover)
+
+      +break-medium
+        background: url("../img/background_4.jpg") no-repeat center center fixed
+        +background-size(cover)
 
   h2
     padding-bottom: $gutter/8
@@ -48,7 +56,7 @@
     +break-medium
       width: 48%
       text-align: left
-      padding: 0 $gutter-per 0 0
+      padding: 0 $gutter-per $gutter-per 0
       +box-sizing(border-box)
       margin: $gutter-per 0 0 52%
 
@@ -67,12 +75,18 @@
 
 .strategy
 
+  .inside
+    +clearfix
+
   .icons
     width: 100px
     margin: $gutter auto 0
 
     img
       width: 100%
+
+      .no-svg &
+        display: none
 
   +break-medium
 
@@ -97,6 +111,7 @@
 
 .projects-list
   margin-top: $gutter
+  +clearfix
 
   a
     display: block

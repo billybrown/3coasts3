@@ -52,7 +52,7 @@ function slider() {
 }
 
 
-
+// stuff to run when the document is ready
 $(document).ready(function() {
 
 	sectionSize();
@@ -69,14 +69,14 @@ $(document).ready(function() {
 	});
 });
 
-
+// stuff to run after all assets have loaded
 $(window).load(function() {
 
 	equalHeight('.projects-list article');
 
 });
 
-
+// stuff to run when the window is resized
 $(window).resize(function () {
 		sectionSize();
 });

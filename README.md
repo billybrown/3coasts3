@@ -1,1 +1,1 @@
-A new site
+A site redesign for 3coasts.

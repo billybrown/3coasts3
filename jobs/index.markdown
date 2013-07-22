@@ -5,15 +5,9 @@ title:  "Come And Join Us"
 
 #{{ page.title}}#
 
-We work with brilliant clients from lovely local companies to international household names, and on all kinds of projects from mobile apps to elaborate e-commerce sites. There are around 50 of us here, and everyone has been chosen not just because they’re pretty damn great at what they do, but also because we know they’ll fit in nicely with our team.
-
-If this sounds like the sort of place for you, check out our current vacancies. Even if you don’t see something that suits, feel free to get in touch anyway. We’d love to have a chat, and see if we can keep you in mind for future roles.
+We manage websites for dozens of companies around the country, and are constantly taking on new web projects within southern Louisiana and beyond. We've been growing steadily since our inception, and are always on the lookout for talented designers and developers to help us get projects out the door better and faster. We'd love to see your portfolio and resume. If you'd like to work with us, send us a brief letter of introduction to <jobs@3coasts.com>, and we may just invite you in to talk at our office! 
 
 </br>
-
-##Get in touch##
-
-Would you like to apply for one of our vacancies, or just chat to us about future job opportunities? Yes? Awesome. Just fill out this form and we'll get back to you asap.
 
 <form class="form job">
 	<fieldset>
